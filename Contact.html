@@ -6,10 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
          <!-- Title and link to CSS-->
-        <title>
-            My Journey - Individual Web Project
+         <title>
+            My Website - Individual Web Project
         </title>
         <link rel="stylesheet" href="Milestone1.css">
+        <!-- Javascript-->
+        <script src="javascript.js"></script>
     </head>
 <body>
     <!--Navigation menu-->
@@ -34,12 +36,13 @@
 <!-- div containing form element for contact form-->
 
 <div class="Contact_Form">
+    <form name ="Contact_Form" onsubmit="return validateForm()"  method="post">
 
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname">
+    <input type="text" id="fname" name="fname">
 
     <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname">
+    <input type="text" id="lname" name="lname">
 
     <label for="email">Email Address</label>
     <input type="text" id="email" name="email">
@@ -51,6 +54,8 @@
     <input type="submit" value="Submit">
 
   </form>
+
+
 </div>
 
 </body>

@@ -6,10 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
          <!-- Title and link to CSS-->
-        <title>
-            My Journey - Individual Web Project
+         <title>
+            My Website - Individual Web Project
         </title>
         <link rel="stylesheet" href="Milestone1.css">
+        <!-- Javascript-->
+        <script src="javascript.js"></script>
     </head>
 <body>
     <!--Navigation menu-->
@@ -29,7 +31,7 @@
         </table>
     </div>
 <!--Header-->
-<h1>Welcome To My Journey</h1>
+<h1>Welcome To My Website</h1>
 <!-- Paragraph text -->
 <p style="text-indent: 0px;">My name is Austin Gammill, and this is the home page of my website for my Milestone#1 Project. On this website you can find out more about me, my time at KSU and even my contact information
     if you have any questions! 
@@ -41,11 +43,14 @@
 </p>
 
 <p style="text-indent: 0px;">
-    I will include some images and links to my favorite indie games down below if anyone is interested! 
+    I will include some images and links to my favorite indie games down below if anyone is interested! Click the button to toggle them off if you are not interested. 
 </p>
 
+<!-- button to toggle elements-->
+<button class="button" onclick="toggleElement()">Click Me</button>
+
 <!--Images and links to indie games mentioned above-->
-<div style="text-align: center">
+<div id="Show_Games" style="text-align: center">
     <a href="https://store.steampowered.com/app/371970/Barony/" target="_blank"> 
         <img src="Barony.jpg" alt="Barony Image (game)" style="width:auto;height:auto">
     </a>

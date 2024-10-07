@@ -96,3 +96,15 @@ body {
   input[type=submit]:hover {
     background-color: green;
   }
+
+  /* button CSS */
+  .button {
+    background-color: #ffffff;
+    border: 4px solid;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    display:block;
+    margin:auto;
+  }

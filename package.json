@@ -1,0 +1,12 @@
+{
+  "name": "webdev-project",
+  "version": "1.0.0",
+  "description": "- Project Title: Milestone 1 - Web Dev Project.\r - Description: This is the first iteration of creating a website following instructions provided by the professor.\r - Installation Instructions: N/A.\r - Usage: Project will be hosted on githib and can be navigated using the nav panel.\r - Contributing: Any suggestions for the layout, content, or CSS are welcome.\r - License: N/A.",
+  "main": "formSubmission.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -33,7 +33,7 @@ function validateForm() {
     function toggleElement() {
         var x = document.getElementById("Show_Games");
         if (x.style.display === "none") {
-          x.style.display = "block";
+          x.style.display = "flex";
         } else {
           x.style.display = "none";
         }
